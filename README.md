@@ -3,6 +3,7 @@ Plugin which allows you to customize the number of items you withdraw from the b
 The number of items withdrawn can be changed for different items.
 
 Example config:
+
 ![image](https://user-images.githubusercontent.com/48400398/134165732-53ad860e-4ea8-4f01-bd3b-f2f845ba2bff.png)
 
 Keys for Withdraw amount:
