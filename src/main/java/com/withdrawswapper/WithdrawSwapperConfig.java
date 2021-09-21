@@ -9,11 +9,11 @@ public interface WithdrawSwapperConfig extends Config
 {
 	@ConfigItem(
 		keyName = "itemList",
-		name = "List of items to change the left click withdraw of.",
-		description = "List of items you want to change the left click withdraw of."
+		name = "Items to change left click withdraw",
+		description = "Format with the name of the item and the withdraw type separated by a ':'. Etc Knife:allbut1"
 	)
 	default String itemList()
 	{
-		return "";
+		return "Jug of wine:5\nKnife:10\nTokkul:allbut1\nFire rune:x";
 	}
 }
